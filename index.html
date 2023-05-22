@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yb-seal-mac demo (npm library)</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<meta property="og:title" content="yb-seal-mac demo">
+	<meta property="og:type" content="website">
+	<meta name="description" property="og:description" content="This is demo site to show the animations using yb--mac npm package.">
+	<meta property="og:image:width" content="250"/><meta property="og:image:height" content="250"/>
+	<style>body{overflow-y:scroll;scroll-behavior:smooth}</style>
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        
+      body {
+        background: #03a9f4;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="links-content">
+        <div class="brand-link right"><i class="fa-brands fa-github" onclick="redirectToPage('git')"></i><i class="fa-brands fa-npm" onclick="redirectToPage('npm')"></i></div>
+    </div>
+
+    <div class="yb-mac-container">
+        <img src="./images/alarm.png" alt="Alarm">
+        <img src="./images/asteroid.png" alt="Asteroid">
+        <img src="./images/memory.jpg" alt="Memory">
+        <img src="./images/tricky.png" alt="Brain">
+    </div>
+</body>
+<script>
+    function redirectToPage(text) {
+        if (text == 'git') window.open('https://github.com/Yashwanthbyalla/yb-seal-mac-demo', 'name', 'noopener=yes');
+        if (text == 'npm') window.open('https://www.npmjs.com/package/yb-seal', 'name', 'noopener=yes');
+    }
+</script>

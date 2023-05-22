@@ -1,0 +1,35 @@
+@import './yb-seal-mac.css';
+
+/* @import './node_modules/yb-seal/node_modules/yb-seal/src/yb-seal.css';
+@import './node_modules/yb-seal/node_modules/yb-seal/src/yb-mac.css'; */
+
+/* Scroll Bar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #e91e63;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+  display: none;
+}
+.links-content {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+.brand-link .fa-brands {
+    font-size: 40px;
+    padding: 1rem;
+    cursor: pointer;
+}
